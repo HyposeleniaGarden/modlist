@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "modlist",
+  "version": "${version}",
+  "name": "Mod List",
+  "description": "Lists loaded server mods and datapacks for operators.",
+  "authors": [
+    "lumine"
+  ],
+  "license": "AGPL-3.0",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.lumine.modlist.ModList"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
